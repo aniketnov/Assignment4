@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+   
+}
+
+.row {
+   padding: 10px 15px;
+    margin: 20px 0;
+}
+
+/* ---------Navigation--------- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar .link-items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.navbar .link-items .link-item {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.navbar .link-items .link-item a{
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .link-items .link-item:hover a{
+    color: #5955b3;
+    text-decoration: underline;
+}
+
+/*------------- Button ----------------*/
+
+
+button{
+    background-color: #5955b3;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+button a{
+    font-size: 1.2rem;
+    font-weight: 500px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero section */
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero-left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+   
+}
+.hero-left-content h1{
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  color: #3c2f60;
+}
+.hero-left-content h1 span{
+    color: #5955b3;
+}
+.hero-left-content p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    
+}
+.hero-right-content img{
+    width: 100%;
+}
+
